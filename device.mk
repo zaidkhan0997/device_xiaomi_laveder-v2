@@ -478,9 +478,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac
-    
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
+
+# Use 64-bit dex2oat for better dexopt time.
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
+

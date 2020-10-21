@@ -496,3 +496,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo

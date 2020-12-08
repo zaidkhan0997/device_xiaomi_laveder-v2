@@ -498,4 +498,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GCamGo
+    GCamGo \
+    GalleryGo

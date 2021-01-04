@@ -517,3 +517,8 @@ PRODUCT_PACKAGES += \
     Retro \
     Gboard
 
+# GvisualMod
+PRODUCT_PACKAGES += \
+    G-UIRadiusAndroid \
+    G-UIRadiusSystemUI \
+    G-UIStatusbarHeight

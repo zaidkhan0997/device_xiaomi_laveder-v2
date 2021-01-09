@@ -537,3 +537,13 @@ PRODUCT_PACKAGES += \
     G-UIRadiusAndroid \
     G-UIRadiusSystemUI \
     G-UIStatusbarHeight
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    init.gpuboost.rc \
+    init.gpuboost.sh \
+    init.cpuboost.rc \
+    init.cpuboost.sh \
+    init.parallax.rc \
+    init.parallax.sh

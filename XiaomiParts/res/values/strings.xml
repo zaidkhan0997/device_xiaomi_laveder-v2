@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="advanced_settings">Xiaomi Parts</string>
-    <string name="advanced_settings_summary">Device Specific Customisations</string>
+    <string name="advanced_settings_summary">Mini Kernel Manager for Redmi Note 7/7s</string>
 
     <string name="display_title">Display</string>
 
@@ -215,6 +215,9 @@
 
     <!-- Label for feature switch -->
     <string name="switch_bar_off">Off</string>
+
+    <!-- Game Turbo Boost -->
+    <string name="game_turbo_mode_title">Game Turbo Boost Performance</string>
 
     <!-- Touchboost -->
     <string name="boost_title">Touchboost</string>

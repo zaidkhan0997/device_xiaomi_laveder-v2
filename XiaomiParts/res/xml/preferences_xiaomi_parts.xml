@@ -109,7 +109,7 @@
 
     <PreferenceCategory
         android:key="boost"
-        android:title="@string/boost_title" >
+        android:title="@string/game_turbo_mode_title" >
 
         <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
             android:key="touchboost"

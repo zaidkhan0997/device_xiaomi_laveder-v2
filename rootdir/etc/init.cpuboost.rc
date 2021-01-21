@@ -37,3 +37,9 @@ on property:persist.cpuboost.profile=3
     write /sys/module/cpu_boost/parameters/input_boost_enabled 1
     write /sys/module/cpu_boost/parameters/input_boost_freq "0:1804800 1:1804800 2:1689600 3:1689600 4:1401600 5:1401600 6:1401600 7:1401600"
     write /sys/module/cpu_boost/parameters/input_boost_ms 1500
+
+# CPU-Extreme
+on property:persist.cpuboost.profile=4
+    write /sys/module/cpu_boost/parameters/input_boost_enabled 1
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:2150400 1:2150400 2:2150400 3:2150400 4:2208000 5:2208000 6:2208000 7:2208000"
+    write /sys/module/cpu_boost/parameters/input_boost_ms 3000

@@ -16,13 +16,18 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit dalvik from native
 $(call inherit-product, device/xiaomi/lavender/dalvikheap.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Legion stuff.
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-DEVICE_MAINTAINER := Hazama25, ak940s
+
+LEGION_BUILD_TYPE := TUCUMÃ
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=CHRISL7
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_lavender
+PRODUCT_NAME := legion_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7

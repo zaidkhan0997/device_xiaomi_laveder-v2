@@ -27,11 +27,6 @@
         <item>-1</item>
     </integer-array>
 
-    <!--  Legion Battery Health  -->
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
-
     <!--  Legion About Phone  -->
     <string name="legion_device_name_summary">Redmi Note 7/7s</string>
     <string name="legion_chipset_type_summary">SDM660</string>

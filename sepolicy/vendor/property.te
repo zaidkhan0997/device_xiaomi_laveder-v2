@@ -7,8 +7,6 @@ type camera_ro_prop, property_type;
 # Dirac
 type dirac_prop, property_type;
 
-type spectrum_prop, property_type;
-
 # GPUboost
 type gpuboost_prop, property_type;
 

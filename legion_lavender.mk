@@ -19,6 +19,8 @@ $(call inherit-product, device/xiaomi/lavender/dalvikheap.mk)
 # Inherit some common Legion stuff.
 $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 LEGION_BUILD_TYPE := TUCUMÃ
 

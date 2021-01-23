@@ -17,19 +17,18 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 $(call inherit-product, device/xiaomi/lavender/dalvikheap.mk)
 
 # Inherit some common Legion stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-LEGION_BUILD_TYPE := TUCUMÃ
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.maintainer.name=CHRISL7
+    ro.maintainer.name=zaidkhan0997
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := legion_lavender
+PRODUCT_NAME := aosp_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
